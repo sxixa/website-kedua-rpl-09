@@ -25,7 +25,7 @@
 <div class="max-w-4xl mx-auto py-8 text-center">
     <div class="bg-white dark:bg-slate-800 p-8 md:p-12 rounded-2xl shadow-sm border border-slate-200 dark:border-slate-700 transition-colors">
         <div class="flex justify-center gap-3">
-    <img src="{{ asset('public/images/Screenshot 2026-09-24 122527.png') }}" alt="Foto Kebersamaan Kelas">
+    <img src="{{ asset('images/Screenshot 2026-09-24 122527.png') }}" alt="Foto Kebersamaan Kelas">
         </div>
 </div>
 @endsection
