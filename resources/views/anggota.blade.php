@@ -1,109 +1,42 @@
-<!DOCTYPE html>
-<html lang="id">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Developer Anggota - XI RPL 1</title>
-    <style>
-        .container {
-            max-width: 900px;
-            margin: 0 auto;
-        }
+@extends('layouts.app')
 
-        header {
-            text-align: center;
-            margin-bottom: 40px;
-        }
+@section('title', 'Developer Anggota - XI RPL 1')
 
-        header h1 {
-            color: #2c3e50;
-            font-size: 2.2rem;
-            margin-bottom: 8px;
-        }
-
-        header p {
-            color: #7f8c8d;
-            font-size: 1rem;
-        }
-
-        .team-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-            gap: 20px;
-        }
-
-        .card {
-            background: #ffffff;
-            border-radius: 12px;
-            padding: 24px;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-            border-top: 4px solid #3498db;
-            transition: transform 0.2s ease, box-shadow 0.2s ease;
-        }
-
-        .card:hover {
-            transform: translateY(-4px);
-            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-        }
-
-        .card h3 {
-            color: #2c3e50;
-            font-size: 1.25rem;
-            margin-bottom: 4px;
-        }
-
-        .role {
-            display: inline-block;
-            background-color: #e8f4fc;
-            color: #2980b9;
-            font-size: 0.85rem;
-            font-weight: 600;
-            padding: 4px 10px;
-            border-radius: 20px;
-            margin-bottom: 14px;
-        }
-
-        .card p {
-            color: #555;
-            font-size: 0.95rem;
-            line-height: 1.5;
-        }
-    </style>
-</head>
-<body>
-
-    <div class="container">
-        <header>
-            <h1>Anggota Tim Developer</h1>
-            <p>Tim di balik pengembangan aplikasi dan sistem proyek XI RPL</p>
-        </header>
-
-        <div class="team-grid">
-            <div class="card">
-                <h3>Muhammad Jibrilian Sidiq Akasya</h3>
-                <span class="role">Project Manager</span>
-                <p>Bertanggung jawab mengelola alur proyek, membagi tugas tim, dan memastikan target selesai tepat waktu.</p>
-            </div>
-
-            <div class="card">
-                <h3>Synta Awaling</h3>
-                <span class="role"> Developer Profile </span>
-                <p>Merancang profil anggota tim.</p>
-            </div>
-
-            <div class="card">
-                <h3>Taufiq Nur Muhammad Irvan</h3>
-                <span class="role"> Developer Anggota</span>
-                <p>Mengurus dokumentasi dan komunikasi antar anggota tim.</p>
-            </div>
-
-            <div class="card">
-                <h3>Abdul Jamil Febriansyah</h3>
-                <span class="role">Developer Kontak</span>
-                <p>Membuat halaman kontak untuk tim.</p>
-            </div>
-        </div>
+@section('content')
+<div class="max-w-5xl mx-auto py-4">
+    <div class="text-center mb-10">
+        <h1 class="text-3xl font-extrabold text-slate-900 dark:text-white mb-2">Anggota Tim Developer</h1>
+        <p class="text-slate-500 dark:text-slate-400">Tim di balik pengembangan aplikasi dan sistem proyek XI RPL</p>
     </div>
 
-</body>
-</html>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <!-- Card 1 -->
+        <div class="bg-white dark:bg-slate-800 rounded-xl p-6 border-t-4 border-sky-500 shadow-sm border-x border-b border-slate-200 dark:border-slate-700/60 hover:-translate-y-1 hover:shadow-md transition-all">
+            <h3 class="font-bold text-slate-800 dark:text-white text-lg mb-1">Muhammad Jibrilian Sidiq Akasya</h3>
+            <span class="inline-block bg-sky-50 dark:bg-sky-900/30 text-sky-600 dark:text-sky-400 text-xs font-semibold px-2.5 py-1 rounded-full mb-3">Project Manager</span>
+            <p class="text-slate-600 dark:text-slate-300 text-sm leading-relaxed">Bertanggung jawab mengelola alur proyek, membagi tugas tim, dan memastikan target selesai tepat waktu.</p>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="bg-white dark:bg-slate-800 rounded-xl p-6 border-t-4 border-sky-500 shadow-sm border-x border-b border-slate-200 dark:border-slate-700/60 hover:-translate-y-1 hover:shadow-md transition-all">
+            <h3 class="font-bold text-slate-800 dark:text-white text-lg mb-1">Synta Awaling</h3>
+            <span class="inline-block bg-sky-50 dark:bg-sky-900/30 text-sky-600 dark:text-sky-400 text-xs font-semibold px-2.5 py-1 rounded-full mb-3">Developer Profile</span>
+            <p class="text-slate-600 dark:text-slate-300 text-sm leading-relaxed">Merancang profil anggota tim.</p>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="bg-white dark:bg-slate-800 rounded-xl p-6 border-t-4 border-sky-500 shadow-sm border-x border-b border-slate-200 dark:border-slate-700/60 hover:-translate-y-1 hover:shadow-md transition-all">
+            <h3 class="font-bold text-slate-800 dark:text-white text-lg mb-1">Taufiq Nur Muhammad Irvan</h3>
+            <span class="inline-block bg-sky-50 dark:bg-sky-900/30 text-sky-600 dark:text-sky-400 text-xs font-semibold px-2.5 py-1 rounded-full mb-3">Developer Anggota</span>
+            <p class="text-slate-600 dark:text-slate-300 text-sm leading-relaxed">Mengurus dokumentasi dan komunikasi antar anggota tim.</p>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="bg-white dark:bg-slate-800 rounded-xl p-6 border-t-4 border-sky-500 shadow-sm border-x border-b border-slate-200 dark:border-slate-700/60 hover:-translate-y-1 hover:shadow-md transition-all">
+            <h3 class="font-bold text-slate-800 dark:text-white text-lg mb-1">Abdul Jamil Febriansyah</h3>
+            <span class="inline-block bg-sky-50 dark:bg-sky-900/30 text-sky-600 dark:text-sky-400 text-xs font-semibold px-2.5 py-1 rounded-full mb-3">Developer Kontak</span>
+            <p class="text-slate-600 dark:text-slate-300 text-sm leading-relaxed">Membuat halaman kontak untuk tim.</p>
+        </div>
+    </div>
+</div>
+@endsection

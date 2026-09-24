@@ -1,33 +1,24 @@
-<!DOCTYPE html>
-<html lang="id">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - Website Profil Kelas XI RPL</title>
-    <!-- Tailwind CSS CDN -->
-    <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body class="bg-slate-50 text-slate-800 min-h-screen flex flex-col justify-between">
+@extends('layouts.app')
 
-    <!-- KONTEN UTAMA HOME -->
-    <main class="max-w-4xl mx-auto px-6 py-12 text-center">
-        <div class="bg-white p-8 md:p-12 rounded-2xl shadow-sm border border-slate-200">
-            <span class="inline-block bg-indigo-50 text-indigo-600 text-xs font-semibold px-3 py-1 rounded-full mb-4">
-                Halaman Home 👋
-            </span>
-            <h2 class="text-3xl font-extrabold text-slate-900 mb-4">
-                Selamat Datang di Halaman Utama Kelas Kami
-            </h2>
-            <p class="text-slate-600 max-w-lg mx-auto mb-8 text-sm md:text-base">
-                Ini adalah file <code class="bg-slate-100 px-2 py-1 rounded text-indigo-600">home.blade.php</code> yang khusus menampilkan bagian sambutan utama kelas XI RPL.
-            </p>
-            <div class="flex justify-center gap-3">
-                <a href="#" class="bg-indigo-600 text-white text-sm font-medium px-5 py-2.5 rounded-xl hover:bg-indigo-700 transition">
-                    Jelajahi Kelas
-                </a>
-            </div>
+@section('title', 'Home - Website Profil Kelas XI RPL 1')
+
+@section('content')
+<div class="max-w-4xl mx-auto py-8 text-center">
+    <div class="bg-white dark:bg-slate-800 p-8 md:p-12 rounded-2xl shadow-sm border border-slate-200 dark:border-slate-700 transition-colors">
+        <span class="inline-block bg-indigo-50 dark:bg-indigo-900/40 text-indigo-600 dark:text-indigo-400 text-xs font-semibold px-3 py-1 rounded-full mb-4">
+            Halaman Home 👋
+        </span>
+        <h2 class="text-3xl font-extrabold text-slate-900 dark:text-white mb-4">
+            Selamat Datang di Halaman Utama Kelas Kami
+        </h2>
+        <p class="text-slate-600 dark:text-slate-300 max-w-lg mx-auto mb-8 text-sm md:text-base">
+            Ini adalah website resmi kelas XI RPL 1 yang menampilkan profil kelas, anggota tim developer, dan informasi kontak proyek kami.
+        </p>
+        <div class="flex justify-center gap-3">
+            <a href="{{ url('/anggota') }}" class="bg-sky-600 hover:bg-sky-700 text-white text-sm font-medium px-5 py-2.5 rounded-xl transition shadow-md shadow-sky-500/20">
+                Jelajahi Anggota Tim
+            </a>
         </div>
-    </main>
-
-</body>
-</html>
+    </div>
+</div>
+@endsection

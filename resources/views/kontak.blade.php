@@ -1,48 +1,39 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-    
-<div style="background-color: #f8fafc; min-height: 100vh; padding: 3rem 1.5rem; font-family: system-ui, -apple-system, sans-serif;">
-    <div style="max-width: 1100px; margin: 0 auto;">
+@extends('layouts.app')
+
+@section('title', 'Kontak Tim Developer - XI RPL 1')
+
+@section('content')
+<div class="max-w-5xl mx-auto py-4">
+    <!-- Header Halaman -->
+    <div class="text-center mb-10">
+        <h1 class="text-3xl font-extrabold text-slate-900 dark:text-white mb-2">Kontak Tim Developer</h1>
+        <p class="text-slate-500 dark:text-slate-400 text-sm sm:text-base">Hubungi kami untuk informasi lebih lanjut mengenai proyek XI RPL</p>
+    </div>
+
+    <!-- Grid Kartu Kontak -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
         
-        <!-- Header Halaman -->
-        <div style="text-align: center; margin-bottom: 3rem;">
-            <h1 style="font-size: 2.25rem; font-weight: 700; color: #1e293b; margin-bottom: 0.5rem;">Kontak Tim Developer</h1>
-            <p style="color: #64748b; font-size: 1rem; margin: 0;">Hubungi kami untuk informasi lebih lanjut mengenai proyek XI RPL</p>
+        <!-- Card 1: Email -->
+        <div class="bg-white dark:bg-slate-800 rounded-xl p-6 border-t-4 border-sky-600 shadow-sm border-x border-b border-slate-200 dark:border-slate-700/60 transition-all">
+            <h2 class="text-xl font-bold text-slate-800 dark:text-white mb-1">Email Resmi</h2>
+            <span class="text-sky-600 dark:text-sky-400 text-sm font-medium block mb-3">Developer Kontak</span>
+            <p class="text-slate-600 dark:text-slate-300 text-sm leading-relaxed">xi.rpl@example.com</p>
         </div>
 
-        <!-- Grid Kartu Kontak -->
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem;">
-            
-            <!-- Card 1: Email -->
-            <div style="background: #ffffff; border-radius: 12px; padding: 1.5rem; border-top: 4px solid #2563eb; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);">
-                <h2 style="font-size: 1.25rem; font-weight: 700; color: #1e293b; margin: 0 0 0.25rem 0;">Email Resmi</h2>
-                <span style="color: #2563eb; font-size: 0.875rem; font-weight: 500; display: block; margin-bottom: 0.75rem;">Developer Kontak</span>
-                <p style="color: #475569; font-size: 0.95rem; margin: 0; line-height: 1.5;">xi.rpl@example.com</p>
-            </div>
-
-            <!-- Card 2: Instagram -->
-            <div style="background: #ffffff; border-radius: 12px; padding: 1.5rem; border-top: 4px solid #2563eb; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);">
-                <h2 style="font-size: 1.25rem; font-weight: 700; color: #1e293b; margin: 0 0 0.25rem 0;">Instagram</h2>
-                <span style="color: #2563eb; font-size: 0.875rem; font-weight: 500; display: block; margin-bottom: 0.75rem;">Media Sosial</span>
-                <p style="color: #475569; font-size: 0.95rem; margin: 0; line-height: 1.5;">@xi_rpl</p>
-            </div>
-
-            <!-- Card 3: Alamat Sekolah -->
-            <div style="background: #ffffff; border-radius: 12px; padding: 1.5rem; border-top: 4px solid #2563eb; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);">
-                <h2 style="font-size: 1.25rem; font-weight: 700; color: #1e293b; margin: 0 0 0.25rem 0;">Alamat Sekolah</h2>
-                <span style="color: #2563eb; font-size: 0.875rem; font-weight: 500; display: block; margin-bottom: 0.75rem;">Lokasi Kampus</span>
-                <p style="color: #475569; font-size: 0.95rem; margin: 0; line-height: 1.5;">SMKN 1 Garut</p>
-            </div>
-
+        <!-- Card 2: Instagram -->
+        <div class="bg-white dark:bg-slate-800 rounded-xl p-6 border-t-4 border-sky-600 shadow-sm border-x border-b border-slate-200 dark:border-slate-700/60 transition-all">
+            <h2 class="text-xl font-bold text-slate-800 dark:text-white mb-1">Instagram</h2>
+            <span class="text-sky-600 dark:text-sky-400 text-sm font-medium block mb-3">Media Sosial</span>
+            <p class="text-slate-600 dark:text-slate-300 text-sm leading-relaxed">@xi_rpl</p>
         </div>
+
+        <!-- Card 3: Alamat Sekolah -->
+        <div class="bg-white dark:bg-slate-800 rounded-xl p-6 border-t-4 border-sky-600 shadow-sm border-x border-b border-slate-200 dark:border-slate-700/60 transition-all">
+            <h2 class="text-xl font-bold text-slate-800 dark:text-white mb-1">Alamat Sekolah</h2>
+            <span class="text-sky-600 dark:text-sky-400 text-sm font-medium block mb-3">Lokasi Kampus</span>
+            <p class="text-slate-600 dark:text-slate-300 text-sm leading-relaxed">SMKN 1 Garut</p>
+        </div>
+
     </div>
 </div>
-</body>
-</html>
+@endsection
