@@ -10,7 +10,7 @@
     <div class="max-w-6xl mx-auto">
         <div class="text-center mb-8">
             <h1 class="text-3xl font-bold text-slate-800">Profil Tim Developer</h1>
-            <p class="text-slate-500 mt-2">Kelola informasi profil tim dan profil kelas XI RPL 1</p>
+            <p class="text-slate-500 mt-2">Kelola informasi profil kelas XI RPL 1</p>
         </div>
 
         <div id="cardContainer" class="grid grid-cols-1 md:grid-cols-3 gap-6"></div>
@@ -21,7 +21,7 @@
         let profils = [
             { id: 1, nama: "SEKOLAH", peran: "SMKN 1 GARUT", deskripsi: "JL. Cimanuk." },
             { id: 2, nama: "Program Keahlian", peran: "Rekayasa Perangkat Lunak", deskripsi: "Software Engineer." },
-            { id: 3, nama: "Deskripsi", peran: " ", deskripsi: "Menjadi kelas yang solid, inovatif, dan terampil dalam dunia pemrograman." },
+            { id: 3, nama: "Deskripsi", peran: "Kelas XI RPL 1", deskripsi: "Menjadi kelas yang solid, inovatif, dan terampil dalam dunia pemrograman." },
         ];
 
         function renderCards() {
