@@ -9,18 +9,6 @@
 </head>
 <body class="bg-slate-50 text-slate-800 min-h-screen flex flex-col justify-between">
 
-    <!-- NAVBAR HOME -->
-    <header class="bg-white border-b border-slate-200">
-        <div class="max-w-4xl mx-auto px-6 py-4 flex justify-between items-center">
-            <h1 class="font-bold text-lg text-indigo-600">XI RPL (Home)</h1>
-            <nav class="space-x-4 text-sm font-medium text-slate-600">
-                <a href="#" class="text-indigo-600 font-semibold">Home</a>
-                <a href="#" class="hover:text-indigo-600">Profil</a>
-                <a href="#" class="hover:text-indigo-600">Kontak</a>
-            </nav>
-        </div>
-    </header>
-
     <!-- KONTEN UTAMA HOME -->
     <main class="max-w-4xl mx-auto px-6 py-12 text-center">
         <div class="bg-white p-8 md:p-12 rounded-2xl shadow-sm border border-slate-200">
