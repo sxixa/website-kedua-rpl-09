@@ -17,9 +17,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <style>
         body { font-family: 'Plus Jakarta Sans', sans-serif; }
+        .images {
+  display: flex;
+  gap: 10px;
+}
+
+.images img {
+  width: 200px;
+}
     </style>
     @stack('styles')
 </head>
+
 <body class="bg-slate-50 text-slate-800 dark:bg-slate-900 dark:text-slate-100 min-h-screen flex flex-col justify-between transition-colors duration-300">
 
     <!-- ==================== NAVBAR ==================== -->
