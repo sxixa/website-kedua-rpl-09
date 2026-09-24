@@ -1,59 +1,56 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Kelompok 9
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+# Daftar Anggota
+- M Jibrilian Sadiq Akasya
+- Taufiq Nur Muhammad Irvan
+- Synta Awalling
+- Abdul Jamil Febriansyah
 
-## About Laravel
+# Pertanyaan:
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Misi 3
+1. Apa fungsi GitHub Issue?
+2. Mengapa pekerjaan sebaiknya dicatat sebagai Issue?
+3. Apa perbedaan Issue dengan Commit? <br>
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+**Jawaban**:
+1. GitHub Issue digunakan untuk mencatat, membahas, dan melacak pekerjaan atau masalah dalam sebuah proyek, seperti bug, fitur baru, atau tugas yang perlu dikerjakan.
+2. Karena Issue membuat pekerjaan lebih terorganisir dan mudah dilacak. Kita dapat mencatat detail tugas, menentukan siapa yang mengerjakan, menambahkan komentar, memberi label, dan memantau apakah pekerjaan sudah selesai.
+3. Issue mencatat apa yang perlu dikerjakan atau masalah yang perlu diselesaikan. Sementara commit mencatat perubahan kode yang sudah dibuat pada repository.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## SIMULASI MASALAH
+Kasus 1: Andi dan Budi sama-sama mengerjakan halaman Profil. Apa yang seharusnya dilakukan?
+**Jawaban**: Andi dan Budi masing-masing membuat branch sendiri agar saat merge bisa review
 
-## Learning Laravel
+Kasus 2: Satu Issue sudah dikerjakan tetapi belum ada Pull Request. Apakah Issue sebaiknya langsung dianggap selesai?
+**Mengapa?**: Sebaiknya jangan dianggap selesai dulu dan lakukan pul request untuk di review karena Issue biasanya merepresentasikan pekerjaan sampai benar-benar selesai dan siap digunakan, bukan sekadar coding-nya sudah ditulis
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+Kasus 3: Budi memiliki 20 commit, sedangkan Andi hanya 5 commit. Apakah otomatis Budi memiliki kontribusi lebih besar?
+**Jelaskan**: Ohhh belum tentu. Karena jumlah commit tidak sama dengan besarnya kontribusi. Misal Budi punya 20 commit tapi semua itu hanya fix typo sementara Andi 5 commit tapi dia membuat fitur baru yang lebih besar
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+Kasus 4: Seseorang melakukan banyak commit tetapi sebagian besar hanya mengubah spasi atau format kode. Bagaimana cara menilai kontribusinya?
+**Jawaban**: Sebaiknya dinilai lebih rendah.
 
-## Laravel Sponsors
+## REFLESKI TIM
+a. Sebelum menggunakan GitHub Issues:
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+b. Setelah menggunakan GitHUb Issues:
 
-### Premium Partners
+c. Hal yang paling membantu:
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+d. Hal yang masih membingungkan:
 
-## Contributing
+e. Perbaikan workflow tim
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+**Jawaban**
 
-## Code of Conduct
+a. Pake whatsapp
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+b. Pake GitHub Issues
 
-## Security Vulnerabilities
+c. Bisa langsung review kodenya dan 
+pembagian tugas juga penjelasan masalah menjadi lebih jelas
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+d. Saya bingung kenapa issues disebut lebih baik daripada group chat atau channel discord
 
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+e. Jadi lebih jelas, tetapi kami masih harus adaptasi dengan workflow github
